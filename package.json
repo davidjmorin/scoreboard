@@ -1,0 +1,22 @@
+{
+  "name": "MSCL-Score-Scrapper",
+  "version": "1.0.0",
+  "description": "Scrapping MSCL score data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mvcc.js"
+  },
+  "author": "Dipak Patel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "nightmare": "^3.0.1"
+  },
+  "devDependencies": {
+    "electron": "^13.0.1"
+  },
+  "keywords": []
+}

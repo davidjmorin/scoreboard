@@ -1,0 +1,17 @@
+{
+  "teamA": {
+    "name": "",
+    "runs": "147",
+    "wickets": "10",
+    "overs": "12.5",
+    "runRate": "11.45"
+  },
+  "teamB": {
+    "name": "",
+    "runs": "51",
+    "wickets": "4",
+    "overs": "4.3",
+    "runRate": "11.33"
+  },
+  "lastUpdated": "6/9/2021, 12:40:09 AM"
+}

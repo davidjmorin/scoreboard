@@ -1,0 +1,44 @@
+{
+  "batsman1": {
+    "Name": "Vikas Singh*",
+    "Runs": "3",
+    "Balls": "2",
+    "StrikeRate": "150.00",
+    "currentlyOnStrike": true
+  },
+  "batsman2": {
+    "Name": "Ravindra Bhalla",
+    "Runs": "8",
+    "Balls": "4",
+    "StrikeRate": "200.00",
+    "currentlyOnStrike": false
+  },
+  "bowler": {
+    "Name": "Manu Chakravarthy",
+    "CurrentOverBalls": "0.3",
+    "CurrentOverGivenRuns": "6",
+    "Wickets": "0",
+    "EconomyRate": "12.00"
+  },
+  "battingOrder": 2,
+  "battingTeam": "",
+  "lastEightBalls": [
+    "1",
+    "0",
+    "3",
+    "W",
+    "2",
+    "|",
+    "1",
+    "3",
+    "2"
+  ],
+  "lastUpdated": "6/9/2021, 12:40:09 AM",
+  "overs": "4.3",
+  "requiredRunRate": "2.73",
+  "requiredToWin": "97 off 35.3 overs",
+  "runRate": "11.33",
+  "score": "51",
+  "target": "148",
+  "wickets": "4"
+}

@@ -1,0 +1,80 @@
+/**
+ * @Author: David Morin
+ * @Date:   2021-03-20 18:20:11
+ * @Last Modified by:   David Morin
+ * @Last Modified time: 2021-04-04 00:23:32
+ */
+
+ @font-face {
+    font-family: ledstyle;
+    src: url("fonts/NewLedDisplaySt-RD6e.ttf");
+  }
+
+  div{
+    text-align: center;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.divForm{
+    position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+    width: 90%;
+}​
+
+.btn-lg{
+    width: 300px!important;
+}
+
+.url-btn {
+    width:300px;
+    padding:5px;
+}
+
+
+.bat2{
+    font-size: 100px;
+    font: bolder;
+    font-family: ledstyle!important;
+    color: red;
+
+}
+
+.bat1{
+    font-size: 100px;
+    font: bolder;
+    font-family: ledstyle!important;
+    color: red;
+
+}
+
+.title{
+    font-size: 60px;
+    font: bolder;
+    font-family: ledstyle!important;
+    color: white;
+    padding-bottom: 35px;
+
+}
+
+.text{
+    font-size: 80px;
+    font-family: ledstyle;
+    color: yellow;
+
+}
+
+.line2{
+    padding-top: 75px;
+}

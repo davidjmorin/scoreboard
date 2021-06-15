@@ -1,17 +1,17 @@
 {
   "teamA": {
-    "name": "",
-    "runs": "147",
-    "wickets": "10",
-    "overs": "12.5",
-    "runRate": "11.45"
+    "name": "MVCC COMBINED XI",
+    "runs": "15",
+    "wickets": "1",
+    "overs": "1.1",
+    "runRate": "12.86"
   },
   "teamB": {
-    "name": "",
-    "runs": "51",
-    "wickets": "4",
-    "overs": "4.3",
-    "runRate": "11.33"
+    "name": "MVCC United",
+    "runs": "0",
+    "wickets": "0",
+    "overs": "0",
+    "runRate": "0.0"
   },
-  "lastUpdated": "6/9/2021, 12:40:09 AM"
+  "lastUpdated": "6/14/2021, 11:20:56 PM"
 }

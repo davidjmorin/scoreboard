@@ -14,7 +14,7 @@ $_COOKIE['test'] = "Tst";
 <head>
 <title> Scoreboard </title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/style.css?v=1.67">
+<link rel="stylesheet" href="assets/style.css?v=1.68">
 
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -42,6 +42,9 @@ $_COOKIE['test'] = "Tst";
 <?php //}else { ?>
 -->
 
+
+
+
 <div id="carouselFad" class="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -54,14 +57,14 @@ $_COOKIE['test'] = "Tst";
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-4 text" id="team1">
-			 BAT
+		<div class="col-4 text" id="teamname1">
+			 <div id="batt1">BAT</div>
 		</div>
 		<div class="col-4 text">
 			 TOTAL
 		</div>
-		<div class="col-4 text" id="team2">
-			 BAT
+		<div class="col-4 text" id="teamname2">
+			<div id="batt2">  BAT </div>
 		</div>
 	</div>
 	<div class="row">
@@ -137,12 +140,10 @@ function score(str) {
 			x = this.responseText
             var data = jQuery.parseJSON(x);
 			console.log(data);
-			document.getElementById("wick").innerHTML = data.teamA.wickets;
-			document.getElementById("overs").innerHTML = data.teamA.overs;
+
 			document.getElementById("team1").innerHTML = data.teamA.name;
-      document.getElementById("team2").innerHTML = data.teamB.name;
-			document.getElementById("bat1").innerHTML = data.teamA.runs;
-      document.getElementById("bat2").innerHTML = data.teamB.runs;
+      			document.getElementById("team2").innerHTML = data.teamB.name;
+			//document.getElementById("bat1").innerHTML = data.teamA.runs;
 
         }
     };
@@ -158,9 +159,22 @@ function score2(str) {
 			x = this.responseText
             var data = jQuery.parseJSON(x);
 			console.log(data);
-      //document.getElementById("total").innerHTML = data.score;
+			//document.getElementById("total").innerHTML = data.score;
 			document.getElementById("target").innerHTML = data.target;
-      document.getElementById("total").innerHTML = data.score;
+      			document.getElementById("total").innerHTML = data.score;
+			document.getElementById("wick").innerHTML = data.wickets;
+			document.getElementById("overs").innerHTML = data.overs;
+			document.getElementById("bat2").innerHTML = data.batsman2.Runs;
+			document.getElementById("bat1").innerHTML = data.batsman1.Runs;
+			var onstrike1 = data.batsman1.currentlyOnStrike;
+			var onstrike2 = data.batsman2.currentlyOnStrike;
+			if(onstrike1 === true){
+				document.getElementById("batt1").style.textDecoration = "overline";
+			}else{document.getElementById("onstrike1").innerHTML = "";}
+
+			if(onstrike2 === true){
+				document.getElementById("batt1").style.textDecoration = "overline";
+			}else{document.getElementById("onstrike2").innerHTML = "";}
 
         }
     };

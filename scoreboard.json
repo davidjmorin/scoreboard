@@ -1,44 +1,43 @@
 {
   "batsman1": {
-    "Name": "Vikas Singh*",
-    "Runs": "3",
-    "Balls": "2",
-    "StrikeRate": "150.00",
+    "Name": "Smit Patel*",
+    "Runs": "13",
+    "Balls": "4",
+    "StrikeRate": "325.00",
     "currentlyOnStrike": true
   },
   "batsman2": {
-    "Name": "Ravindra Bhalla",
-    "Runs": "8",
-    "Balls": "4",
-    "StrikeRate": "200.00",
+    "Name": "Chaitanya Munukutla",
+    "Runs": "1",
+    "Balls": "1",
+    "StrikeRate": "100.00",
     "currentlyOnStrike": false
   },
   "bowler": {
-    "Name": "Manu Chakravarthy",
-    "CurrentOverBalls": "0.3",
-    "CurrentOverGivenRuns": "6",
+    "Name": "Vivek Jodan",
+    "CurrentOverBalls": "0.1",
+    "CurrentOverGivenRuns": "5",
     "Wickets": "0",
-    "EconomyRate": "12.00"
+    "EconomyRate": "30.00"
   },
-  "battingOrder": 2,
-  "battingTeam": "",
+  "battingOrder": 1,
+  "battingTeam": "MVCC COMBINED XI",
   "lastEightBalls": [
     "1",
-    "0",
+    "2",
     "3",
     "W",
-    "2",
-    "|",
     "1",
     "3",
-    "2"
+    "|",
+    "5"
   ],
-  "lastUpdated": "6/9/2021, 12:40:09 AM",
-  "overs": "4.3",
-  "requiredRunRate": "2.73",
-  "requiredToWin": "97 off 35.3 overs",
-  "runRate": "11.33",
-  "score": "51",
-  "target": "148",
-  "wickets": "4"
+  "lastUpdated": "6/14/2021, 11:21:03 PM",
+  "overs": "1.1",
+  "requiredRunRate": "0",
+  "requiredToWin": "TBD",
+  "runRate": "12.86",
+  "score": "15",
+  "target": "0",
+  "wickets": "1"
 }

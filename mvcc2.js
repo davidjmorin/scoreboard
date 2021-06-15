@@ -5,16 +5,10 @@ const fs = require('fs');
 
 // Consts
 var data = fs.readFileSync('/var/www/html/scoreboard/dataUrl.txt', 'utf8');
-//const url = 'https://www.mscl.org/live/scorecard/ed7941919f69b0e11e800fef/mHcehsPR9S86T3zQv';
 console.log(data.toString());
 const url = data.toString();
 
 const interval = 10*1000; // every 10 second
-
-
-// console.log('/++++++++++++++++++++++++++++/');
-// console.log(i + '----' +$(elem).html());
-// console.log('/++++++++++++++++++++++++++++/');
 
 let getData = html => {
   const $ = cheerio.load(html);

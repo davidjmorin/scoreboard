@@ -1,2 +1,0 @@
-# MSCLv2
-# scoreboard

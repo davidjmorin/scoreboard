@@ -68,6 +68,24 @@ body{
 
 }
 
+.batt1{
+    font-size: 50px;
+    font: bolder;
+    font-family: ledstyle!important;
+    color: yellow;
+
+}
+
+.batt2{
+    font-size: 50px;
+    font: bolder;
+    font-family: ledstyle!important;
+    color: yellow;
+
+}
+
+
+
 .text{
     font-size: 80px;
     font-family: ledstyle;

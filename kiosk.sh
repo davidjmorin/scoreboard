@@ -11,6 +11,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
 /usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost &
 
 while true; do
-   xdotool key F11; xdotool key KP_Enter; xdotool keydown ctrl+r; xdotool keyup ctrl+r;
+   xdotool key KP_Enter; xdotool keydown ctrl+r; xdotool keyup ctrl+r;
    sleep 300
 done
+#xdotool key F11; 

@@ -24,6 +24,6 @@ if(isset($_POST['url'])) {
     else {
     die('no post data to process');
     }
-
+ 
 header('Location: index.php');
 

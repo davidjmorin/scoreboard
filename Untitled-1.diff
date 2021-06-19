@@ -1,0 +1,12 @@
+diff --git a/match.php b/match.php
+--- match.php
++++ match.php
+@@ -23,7 +23,7 @@
+ }
+     else {
+     die('no post data to process');
+     }
+-
++ 
+ header('Location: index.php');
+ 
